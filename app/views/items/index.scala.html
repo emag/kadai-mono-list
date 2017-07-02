@@ -22,8 +22,7 @@
         </div>
       </div>
     </div>
-    @* 変更: 引数にcurrentUserを渡す *@
-    @views.html.items.items(Some(currentUser), items)
+    @views.html.items.items(Some(currentUser), items.map((_, None)))
   </div>
 
 }
