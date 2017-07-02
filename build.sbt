@@ -50,6 +50,7 @@ libraryDependencies ++= Seq(
   "jp.t2v"                 %% "play2-auth-test"              % "0.14.2" % Test,
   "jp.t2v"                 %% "play2-pager"                  % "0.1.0",
   "jp.t2v"                 %% "play2-pager-scalikejdbc"      % "0.1.0",
+  "com.github.j5ik2o"      %% "scala-rakuten-item-search-api" % "1.0.3",
   "mysql"                  % "mysql-connector-java"          % "6.0.6",
   "org.flywaydb"           %% "flyway-play"                  % "3.1.0"
 )
